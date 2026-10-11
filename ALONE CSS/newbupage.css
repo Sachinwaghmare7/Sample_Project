@@ -1,0 +1,71 @@
+/* this code show the blinking line */
+b {
+    color: red;
+    background-color: rgba(255, 255, 0, 0.843);
+    border-radius: 5px;
+    font-family: monospace;
+    animation: blink 1s infinite;
+    padding: 1px 4px;
+    cursor: pointer;
+}
+
+b:hover {
+    background-color: red;
+    color: white;
+    size: 20px;
+}
+
+/* this new blinking button specify new updates */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+}
+
+
+/* in this section code show the blinking button style */
+.new {
+
+    background-color: rgba(16, 16, 16, 0.095);
+    border-radius: 12px;
+    animation: blink 1s infinite;
+    size: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.container {
+    padding: 2rem;
+}
+
+/* this is the  new button information code design  */
+.property {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem 0;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.property img {
+    width: 40%;
+    height: auto;
+}
+
+.property-details {
+    padding: 1rem;
+}
+
+.property-details h3 {
+    margin-top: 0;
+}

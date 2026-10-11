@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: red serifs;
+}
+
+header span {
+    /* this code will be show title of the website on top */
+    font-size: 32px;
+}
+
+.scroll {
+    background-color: rgba(152, 152, 49, 0.006);
+    color: rgb(141, 118, 118)
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #939393;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgba(213, 51, 51, 0.771);
+    /* /* border: 0.2px solid rgba(255, 255, 255, 0.497); */
+    padding: 4px 6px;
+    background-color: rgb(251, 250, 250);
+    border-radius: 3px;
+}
+
+
+.menu {
+    color: white;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+    left: 10px;
+}
+
+.hero {
+    /* background: url('https://p4.wallpaperbetter.com/wallpaper/118/302/325/house-architecture-modern-mansion-car-hd-wallpaper-preview.jpg') no-repeat center center/cover; */
+    mask-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+.mySlides fade one hero {
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero img {
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+.hero h1 {
+    font-size: 2.2rem;
+    align-items: start;
+    position: absolute;
+    top: 36.5vh;
+    opacity: 70%;
+}
+
+.container {
+    padding: 2rem;
+}
+
+
+.view {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 5px 2px;
+    border-radius: 10px;
+    width: 80px;
+    position: relative;
+    left: -0.1%;
+    top: 20px;
+}
+
+.view:hover {
+    background-color: rgb(7, 200, 10);
+    cursor: pointer;
+    box-shadow: 4px 4px 3px rgba(0, 85, 255, 0.684), -0.2em 0 .3em rgba(59, 215, 12, 0.758);
+}
+
+.move {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 5px 2px;
+    border-radius: 10px;
+    width: 80px;
+    position: relative;
+    left: -0.1%;
+    top: 20px;
+}
+
+.move:hover {
+    background-color: rgb(7, 200, 10);
+    cursor: pointer;
+    box-shadow: 4px 4px 3px rgba(0, 85, 255, 0.684), -0.2em 0 .3em rgba(59, 215, 12, 0.758);
+}
+
+.property {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem 0;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.property img {
+    width: 40%;
+    height: auto;
+}
+
+.property-details {
+    padding: 1rem;
+}
+
+.property-details h3 {
+    margin-top: 0;
+}
+
+.footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.aboutinform {
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service {
+    border: 2px solid black;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.cont {
+    border: 2px solid black;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+/* in this section code show new updates */
+.new {
+    color: blue;
+
+}
+
+.hero h1:hover {
+    color: red;
+}
